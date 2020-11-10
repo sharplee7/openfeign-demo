@@ -11,9 +11,7 @@ public class Courtesy {
     public void setMessage(String message) {
         this.message = message;
     }
-
-
-
+    
     public String getName() {
         return name;
     }
