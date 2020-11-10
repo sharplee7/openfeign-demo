@@ -1,0 +1,5 @@
+rootProject.name = 'openfeign-demo'
+include 'caller'
+include 'callee'
+include 'common-lib'
+
