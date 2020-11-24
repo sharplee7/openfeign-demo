@@ -1,0 +1,44 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: caller-deployment
+  labels:
+    app: caller-deployment
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: caller-service
+  template:
+    metadata:
+      labels:
+        app: caller-service
+    spec:
+      containers:
+        - name: caller-service
+          image: sharplee7/caller-service:1.0
+          ports:
+            - containerPort: 8081
+          env:
+            - name: RUN_MODE
+              value: "server"
+            - name: CALLEE_SERVICE_URL
+              value: "callee.sharplee7.org"
+            - name: CALLER_SERVICE_URL
+              value: "caller.sharplee7.org"
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: caller-service
+  namespace: default
+  labels:
+    app: caller-service
+spec:
+  selector:
+    app: caller-service
+  ports:
+    - protocol: TCP
+      port: 8081
+      nodePort: 30376
+  type: NodePort

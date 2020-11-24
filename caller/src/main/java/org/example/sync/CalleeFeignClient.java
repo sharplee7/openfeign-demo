@@ -10,8 +10,8 @@ import org.springframework.web.bind.annotation.RequestBody;
 
 import java.util.List;
 
-@FeignClient(name = "callee-service",
-        url = "http://localhost:8082",
+@FeignClient(name = "callee",
+        url = "${callee-service.url}",
         fallbackFactory = CalleeFeignClientFallbackFactory.class)
 public interface CalleeFeignClient {
     @GetMapping("/courtesy")

@@ -1,0 +1,15 @@
+[2020-11-22 11:16:29:895][main] INFO  org.example.CalleeApplicationMain - The following profiles are active: local
+[2020-11-22 11:16:31:2502][main] INFO  org.example.CalleeApplicationMain - Started CalleeApplicationMain in 2.311 seconds (JVM running for 2.66)
+[2020-11-22 12:43:32:1065][main] INFO  org.example.CalleeApplicationMain - The following profiles are active: local
+[2020-11-22 12:43:34:2981][main] INFO  org.example.CalleeApplicationMain - Started CalleeApplicationMain in 2.762 seconds (JVM running for 3.185)
+[2020-11-22 12:43:41:1113][main] INFO  org.example.CallerApplicationMain - The following profiles are active: local
+[2020-11-22 12:43:43:3434][main] INFO  org.example.CallerApplicationMain - Started CallerApplicationMain in 3.199 seconds (JVM running for 3.617)
+[2020-11-22 17:22:57:974][main] INFO  org.example.CalleeApplicationMain - The following profiles are active: local
+[2020-11-22 17:23:05:1081][main] INFO  org.example.CallerApplicationMain - The following profiles are active: local
+[2020-11-22 17:24:34:942][main] INFO  org.example.CalleeApplicationMain - The following profiles are active: local
+[2020-11-22 17:24:37:3006][main] INFO  org.example.CalleeApplicationMain - Started CalleeApplicationMain in 2.826 seconds (JVM running for 3.14)
+[2020-11-22 17:24:43:1146][main] INFO  org.example.CallerApplicationMain - The following profiles are active: local
+[2020-11-22 17:24:45:3178][main] INFO  org.example.CallerApplicationMain - Started CallerApplicationMain in 2.973 seconds (JVM running for 3.368)
+[2020-11-22 21:41:51:973][main] INFO  org.example.CallerApplicationMain - The following profiles are active: local
+[2020-11-22 21:43:29:2198][main] INFO  org.example.CallerApplicationMain - The following profiles are active: local
+[2020-11-22 21:43:31:4377][main] INFO  org.example.CallerApplicationMain - Started CallerApplicationMain in 4.182 seconds (JVM running for 4.596)
