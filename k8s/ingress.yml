@@ -26,3 +26,5 @@ spec:
                 name: caller-service
                 port:
                   number: 8081
+
+#여기서 등록한 host명은 dns에 등록해서 사용

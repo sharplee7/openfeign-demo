@@ -42,3 +42,5 @@ spec:
       port: 8081
       nodePort: 30376
   type: NodePort
+
+# env의 CALLER_SERVICE_URL같은 값은 application.properties에 있는 환경변수 처리한 변수
